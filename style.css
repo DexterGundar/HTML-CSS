@@ -1,5 +1,5 @@
 *{
-    max-width: 600px;
+    max-width: 550px;
     margin: auto;
 }
 
@@ -38,8 +38,9 @@ ul,ol {
 
 #article {
     grid-area: text;
+    border-top: 20px;
     font-style: oblique;
-    ;
+    
 }
 
 #Arnie {
@@ -51,16 +52,20 @@ ul,ol {
 
 #sleep{
     text-align: right;
-    
+    padding-top: 200px;
     
 }
 
 #footer {
     text-align: right;
     font-size: smaller;
-
     font-weight: lighter;
     color: whitesmoke;
     background-color:  rgb(150, 10, 115);
     padding: 15px 40px 20px 40px;
+}
+
+#button1 {
+    border: none;
+    background-color: blue;
 }
